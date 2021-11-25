@@ -27,6 +27,10 @@ p {
     color: #2C64E5;
 }
 
+.bkg_dark {
+    background-color: #1f1f1f;
+}
+
 button {
     font-size: 15px;
     font-weight: 500;
@@ -84,3 +88,21 @@ button {
 
 /* introduzione */
 
+.item_play {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.item_play:hover {
+    opacity: 0.5;
+    border-bottom: 2px #2C64E5 solid;
+}
+
+/* game section */
+
+.game_cover {
+    margin-top: 65px;
+    height: 600px;
+    background: url(../img/it-takes-two-hero-banner-desktop.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
