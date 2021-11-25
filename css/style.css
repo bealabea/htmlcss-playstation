@@ -31,12 +31,33 @@ p {
     background-color: #1f1f1f;
 }
 
+.bkg_grey {
+    background-color: #BEBCBB;
+}
+
+.bkg_dark_blue {
+    background-color: #161c3b;
+}
+
+.bkg_blue {
+    background-color: #2C64E5;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
 button {
     font-size: 15px;
     font-weight: 500;
     color: #fff;
     background-color: #2C64E5;
-    padding: 5px 12px;
+    padding: 8px 12px;
     border: none;
     border-radius: 50px;
 }
@@ -45,9 +66,14 @@ button {
     background-color: #CD3D0F;
 }
 
-.button_white {
+.button_white_black {
     background-color: #fff;
     color: #000;
+}
+
+.button_white_blue {
+    background-color: #fff;
+    color: #00439C;
 }
 
 .img_radius {
@@ -71,7 +97,6 @@ button {
 /* nav */
 
 .menu {
-    height: 65px;
     width: 100%;
     background-color: #fff;
     position: fixed;
@@ -105,4 +130,10 @@ button {
     height: 600px;
     background: url(../img/it-takes-two-hero-banner-desktop.jpg) no-repeat 50% 50%;
     background-size: cover;
+}
+
+/* footer */
+
+.sie_logo {
+    width: 200px;
 }
