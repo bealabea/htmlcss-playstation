@@ -1,0 +1,30 @@
+.topbar {
+    background-color: #000;
+    height: 35px;
+    padding: 5px 10px;
+}
+
+.image-top {
+    width: 80px;
+}
+
+.topbar img {
+    object-fit: contain;
+}
+
+.menu {
+    height: 65px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 35px;
+}
+
+.jumbotron {
+    margin-top: 65px;
+    width: 100%;
+}
+
+.jumbotron img {
+    object-fit: cover;
+}
