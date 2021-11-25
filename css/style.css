@@ -23,8 +23,6 @@
 .jumbotron {
     margin-top: 65px;
     height: 600px;
-}
-
-.jumbotron img {
-    object-fit: cover;
+    background: url(../img/returnal-listing-thumb-01-ps5.jpg) no-repeat;
+    background-position: cover;
 }
