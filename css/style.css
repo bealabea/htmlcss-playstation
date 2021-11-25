@@ -1,28 +1,86 @@
+h2 {
+    font-size: 40px;
+}
+
+p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: #878787;
+    font-weight: 500;
+}
+
+.small_text {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.light_text {
+    color: #fff;
+}
+
+.dark_text {
+    color: #000;
+}
+
+.blue_text {
+    color: #2C64E5;
+}
+
+button {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2C64E5;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 50px;
+}
+
+.button_colored {
+    background-color: #CD3D0F;
+}
+
+.button_white {
+    background-color: #fff;
+    color: #000;
+}
+
+.img_radius {
+    border-radius: 15px;
+}
+
+/* -------------------------- */
+
+/* topbar */
+
 .topbar {
     background-color: #000;
     height: 35px;
-    padding: 5px 10px;
+    padding: 3px 10px;
 }
 
-.image-top {
+.image_top {
     width: 80px;
 }
 
-.topbar img {
-    object-fit: contain;
-}
+/* nav */
 
 .menu {
     height: 65px;
     width: 100%;
     background-color: #fff;
     position: fixed;
-    top: 35px;
 }
+
+/* jumbo */
 
 .jumbotron {
     margin-top: 65px;
     height: 600px;
-    background: url(../img/returnal-listing-thumb-01-ps5.jpg) no-repeat;
-    background-position: cover;
+    background: url(../img/jumbo-bg.png) no-repeat 50% 50%;
+    background-size: cover;
 }
+
+/* introduzione */
+
