@@ -218,6 +218,7 @@ button:hover {
 .item_play {
     opacity: 1;
     cursor: pointer;
+    transition: opacity 0.5s;
 }
 
 .item_play:hover {
@@ -243,14 +244,15 @@ button:hover {
     width: 150px;
 }
 
-.language-menu {
+.language_menu {
     color: #fff;
     background-color: transparent;
     border: none;
     outline: none;
     font-weight: 500;
+    cursor: pointer;
 }
 
-.language-menu option{
+.language_menu option{
     background-color: #00439C;
 }
