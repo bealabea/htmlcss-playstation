@@ -55,6 +55,19 @@ a {
     border-radius: 15px;
 }
 
+.ps_navbar .dropdown-menu.show {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.ps_navbar #navbarDropdown {
+    color: #000;
+}
+
+.ps_navbar #navbarDropdown:hover {
+    color: #2C64E5;
+}
+
 /* button */
 button {
     font-size: 15px;
@@ -65,34 +78,34 @@ button {
     border: none;
     border-radius: 50px;
     outline-color: #fff;
-    outline-width: 2px;
+    outline-width: 1px;
     outline-style: none;
-    outline-offset: -5px;
+    outline-offset: -3px;
 }
 
 .button_colored {
     background-color: #CD3D0F;
     outline-color: #000;
-    outline-width: 2px;
+    outline-width: 1px;
     outline-style: none;
-    outline-offset: -5px;
+    outline-offset: -3px;
 }
 
 .button_white_black {
     background-color: #fff;
     color: #000;
     outline-color: #000;
-    outline-width: 2px;
+    outline-width: 1px;
     outline-style: none;
-    outline-offset: -5px;
+    outline-offset: -3px;
 }
 
 .button_black_white {
     background-color: #1f1f1f;
     outline-color: #fff;
-    outline-width: 2px;
+    outline-width: 1px;
     outline-style: none;
-    outline-offset: -5px;
+    outline-offset: -3px;
 }
 
 .button_white_blue {
@@ -100,38 +113,51 @@ button {
     color: #00439C;
 }
 
+.button_height {
+    height: 40px;
+}
+
 /* button hover */
 button:hover {
     outline-color: #fff;
-    outline-width: 2px;
+    outline-width: 1px;
     outline-style: solid;
-    outline-offset: -5px;
+    outline-offset: -3px;
     transition: all 0.5s;
 }
 
 .button_white_blue:hover {
     background-color: #fff;
     color: #00439C;
-    box-shadow: 0px 0px 15px #d1dfff;
+    box-shadow: 0px 0px 20px #d1dfff;
 }
 
 .button_colored:hover,
 .button_white_black:hover {
     outline-color: #000;
-    outline-width: 2px;
+    outline-width: 1px;
     outline-style: solid;
-    outline-offset: -5px;
+    outline-offset: -3px;
     transition: all 0.5s;
 }
 
 .button_black_white:hover {
     outline-color: #fff;
     background-color: #878787;
-    outline-width: 2px;
+    outline-width: 1px;
     outline-style: solid;
-    outline-offset: -5px;
+    outline-offset: -3px;
     transition: all 0.5s;
 }
+
+.game_logo {
+    width: 60%;
+}
+
+.banner_logo {
+    width: 80%;
+}
+
 
 /* -------------------------- */
 
@@ -143,7 +169,7 @@ button:hover {
     padding: 3px 10px;
 }
 
-.image_top {
+.topbar_logo {
     width: 80px;
 }
 
@@ -154,6 +180,7 @@ button:hover {
     background-color: #fff;
     position: sticky;
     top: 0;
+    z-index:1001;
 }
 
 /* jumbo */
@@ -181,6 +208,7 @@ button:hover {
 .thumb_game:hover {
     top: -15px;
     transition: all .5s;
+    
 }
 
 .item_play:first-child {
@@ -213,4 +241,16 @@ button:hover {
 
 .sie_logo {
     width: 150px;
+}
+
+.language-menu {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-weight: 500;
+}
+
+.language-menu option{
+    background-color: #00439C;
 }
