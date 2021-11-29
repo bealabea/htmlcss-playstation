@@ -57,7 +57,8 @@ a {
 
 .ps_navbar .dropdown-menu.show {
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap; 
+    width: 100%;   
 }
 
 .ps_navbar #navbarDropdown {
@@ -67,6 +68,10 @@ a {
 
 .ps_navbar #navbarDropdown:hover {
     color: #2C64E5;
+}
+
+li.nav-item.dropdown {
+    position: static;
 }
 
 /* button */
