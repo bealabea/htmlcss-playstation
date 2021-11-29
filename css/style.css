@@ -62,6 +62,7 @@ a {
 
 .ps_navbar #navbarDropdown {
     color: #000;
+    font-weight: 500;
 }
 
 .ps_navbar #navbarDropdown:hover {
@@ -69,93 +70,47 @@ a {
 }
 
 /* button */
-button {
-    font-size: 15px;
+
+a.btn {
+    border-radius: 40px;
+    border-width: 2px;
     font-weight: 500;
-    color: #fff;
-    background-color: #2C64E5;
-    padding: 8px 14px;
-    border: none;
-    border-radius: 50px;
-    outline-color: #fff;
-    outline-width: 1px;
-    outline-style: none;
-    outline-offset: -3px;
+    max-height: 40px;
 }
 
-.button_colored {
+a.button_colored {
     background-color: #CD3D0F;
-    outline-color: #000;
-    outline-width: 1px;
-    outline-style: none;
-    outline-offset: -3px;
+    border-color: #CD3D0F;
 }
 
-.button_white_black {
+a.button_colored:hover {
+    box-shadow: inset 0 0 0 2px #000;
+    background-color: #CD3D0F;
+    border-color: #CD3D0F;
+}
+
+a.btn-dark:hover {
+    box-shadow: inset 0 0 0 2px #fff;
+    background-color: #878787;
+    border-color: #878787;
+}
+
+a.btn-primary:hover {
+    box-shadow: inset 0 0 0 2px #fff;
+}
+
+a.btn-light:hover {
+    box-shadow: inset 0 0 0 2px #000;
+}
+
+a.btn-light.blue_text:hover {
     background-color: #fff;
-    color: #000;
-    outline-color: #000;
-    outline-width: 1px;
-    outline-style: none;
-    outline-offset: -3px;
-}
-
-.button_black_white {
-    background-color: #1f1f1f;
-    outline-color: #fff;
-    outline-width: 1px;
-    outline-style: none;
-    outline-offset: -3px;
-}
-
-.button_white_blue {
-    background-color: #fff;
-    color: #00439C;
-}
-
-.button_height {
-    height: 40px;
-}
-
-/* button hover */
-button:hover {
-    outline-color: #fff;
-    outline-width: 1px;
-    outline-style: solid;
-    outline-offset: -3px;
-    transition: all 0.5s;
-}
-
-.button_white_blue:hover {
-    background-color: #fff;
-    color: #00439C;
+    color: #2C64E5;
     box-shadow: 0px 0px 20px #d1dfff;
 }
 
-.button_colored:hover,
-.button_white_black:hover {
-    outline-color: #000;
-    outline-width: 1px;
-    outline-style: solid;
-    outline-offset: -3px;
-    transition: all 0.5s;
-}
-
-.button_black_white:hover {
-    outline-color: #fff;
-    background-color: #878787;
-    outline-width: 1px;
-    outline-style: solid;
-    outline-offset: -3px;
-    transition: all 0.5s;
-}
-
-.game_logo {
-    width: 60%;
-}
-
-.banner_logo {
-    width: 80%;
+.game_logo, .banner_logo {
+    width: 70%;
 }
 
 
@@ -191,47 +146,68 @@ button:hover {
     background-size: cover;
 }
 
-/* introduzione */
+/* game labels */
 
-.thumb_game:first-child img{
-    outline: 2px #2C64E5 solid;
-    border-radius: 15px;
-    outline-offset: 3px;
-}
-
-.thumb_game {
+.game_label {
+    border: 2px transparent solid;
+    padding: 2px;
     position: relative;
     top: 0;
-    transition: all .5s;
+    transition: all .2s ease-in-out;
 }
 
-.thumb_game:hover {
-    top: -15px;
-    transition: all .5s;
-    
+.game_label:hover {
+    border: 2px #2C64E5 solid;
+    top: -10px;
+    box-shadow: 0px 10px 20px #c0c0c0;
 }
 
-.item_play:first-child {
+/* ps5 accessories */
+
+.ps5_accessories {
+    opacity: 0.7;
+    cursor: pointer;
+    transition: opacity 0.5s;
+    border-bottom: 2px transparent solid;
+}
+
+.ps5_accessories:hover {
+    opacity: 1;
     border-bottom: 2px #2C64E5 solid;
 }
 
-.item_play {
+.ps5_accessories:focus {
     opacity: 1;
-    cursor: pointer;
-    transition: opacity 0.5s;
+    border-bottom: 2px #2C64E5 solid;
 }
 
-.item_play:hover {
-    opacity: 0.5;
-}
-
-/* game section */
+/* games, store and social section */
 
 .game_cover {
-    margin-top: 65px;
-    height: 600px;
     background: url(../img/it-takes-two-hero-banner-desktop.jpg) no-repeat 50% 50%;
     background-size: cover;
+}
+
+.game_img,
+.ps_store_deals,
+.social_icon {
+    transform: none;
+    box-shadow: none;
+    transition: all .2s ease-in-out;
+}
+
+.game_img:hover {
+    transform: scale(0.9);
+    box-shadow: 0px 0px 15px #d1dfff;
+}
+
+.ps_store_deals:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px #d1dfff;
+}
+
+.social_icon:hover {
+    transform: scale(1.1);
 }
 
 /* footer */
