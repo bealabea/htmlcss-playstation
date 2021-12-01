@@ -69,48 +69,41 @@ li.nav-item.dropdown {
 
 /* button */
 
-a.btn {
+.button.btn {
     border-radius: 40px;
     border-width: 2px;
     font-weight: 500;
     max-height: 40px;
 }
 
-a.button_colored {
+.button.button_colored {
     background-color: #CD3D0F;
     border-color: #CD3D0F;
 }
 
-a.button_colored:hover {
+.button.button_colored:hover,
+.button.btn-light:hover {
     box-shadow: inset 0 0 0 2px #000;
-    background-color: #CD3D0F;
-    border-color: #CD3D0F;
 }
 
-a.btn-dark:hover {
+.button.btn-dark:hover {
     box-shadow: inset 0 0 0 2px #fff;
     background-color: #878787;
     border-color: #878787;
 }
 
-a.btn-primary:hover {
+.button.btn-primary:hover {
     box-shadow: inset 0 0 0 2px #fff;
 }
 
-a.btn-light:hover {
-    box-shadow: inset 0 0 0 2px #000;
-}
-
-a.btn-light.blue_text:hover {
+.button.btn-light.text-primary:hover {
     background-color: #fff;
-    color: #2C64E5;
     box-shadow: 0px 0px 20px #d1dfff;
 }
 
 .game_logo, .banner_logo {
     width: 70%;
 }
-
 
 /* -------------------------- */
 
