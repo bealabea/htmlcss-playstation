@@ -15,20 +15,8 @@ p {
     line-height: 25px;
 }
 
-.light_text {
-    color: #fff;
-}
-
 .dark_text {
     color: #000;
-}
-
-.blue_text {
-    color: #2C64E5;
-}
-
-.bkg_dark {
-    background-color: #1f1f1f;
 }
 
 .bkg_grey {
@@ -57,6 +45,7 @@ a {
 
 .ps_navbar #navbarDropdown {
     font-weight: 500;
+    color: #1f1f1f;
 }
 
 .ps_navbar #navbarDropdown:hover {
@@ -213,13 +202,9 @@ li.nav-item.dropdown {
 
 .language_menu {
     color: #fff;
-    background-color: transparent;
+    background-color: #00439C;
     border: none;
     outline: none;
     font-weight: 500;
     cursor: pointer;
-}
-
-.language_menu option{
-    background-color: #00439C;
 }
